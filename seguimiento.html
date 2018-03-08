@@ -33,6 +33,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="index.html">Inicio</a></li>
+          <li><a href="">Actividades</a></li>
           <li><a href="tablero.html">Tablero</a></li>
           <li class="menu-has-children"><i class="fa fa-cog"></i><a href="">Admin</a>
             <ul>
@@ -49,7 +50,8 @@
          <a href="#">Todas</a>
          <a href="#">Nuevas</a>
          <a href="#">En proceso</a>
-         <a href="#">Completas</a>
+         <a href="#">Incompletas</a>
+		 <a href="#">Completas</a>
 		 <a href="#">Canceladas</a>
 		 <a href="#">Vencidas</a>
 		 <a href="#">A vencer</a>
@@ -59,7 +61,7 @@
          <div class="well well-sm">
             <div class="panel panel-info">
                <div class="panel-body">
-                  <h1>Actividades</h1>
+                  <h1>Seguimiento</h1>
 				   <form class="navbar-form navbar-left">
             <div class="input-group">
             <div class="input-group-btn">
@@ -82,88 +84,61 @@
                   <div class="panel-heading">
             <div class="panel-body">
 			
-           <table class="table">
+            <table class="table">
             <thead>
             <tr>
             <th><li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Acci&oacute;n <span class="caret"></span></a>
             <ul class="dropdown-menu" style="list-style: none;" >
-            <li><a href="" target = "content" >Editar</a></li>
-            <li><a href="" target = "content" >Completar</a></li>
-            <li><a href="" target = "content" >Cancelar</a></li>
+            <li><a href="">Editar</a></li>
+            <li><a href="">Completar</a></li>
+            <li><a href="">Cancelar</a></li>
             </ul>
             </li></th>
             <th>C&oacute;digo</th>
+            <th>Responsable</th>
             <th>Servicio</th>
-            <th>Descripci&oacute;n</th>
-            <th>Alerta</th>
-            <th>Inicio</th>
-            <th>Fin Estimado</th>
-            <th>Completado</th>
-            <th>Categor&iacute;a</th>
-            <th>Estado</th>
+			<th>Inicio</th>
+            <th>Fin</th>
+			<th>Actividad</th>
+            <th>Canal</th>
+            <th>Tiempo (Horas)</th>
+			<th>Estado</th>
             </tr>
             </thead>
             <tbody>
             <tr tr class="info">
             <td><input id="checkBox" type="checkbox"></td>
-            <th>RED1</th>
             <th><a href="solicitud.html">L20180001</a></th>
-            <td>Redacci&oacute;n contrato de pago</td>
+            <th>Elaine Nivar</th>
+            <td>Solicitud de Licencia para Operar como Agencia de Aduanas</td>
             <td>30/01/2018</td>
             <td>29/01/2018</td>
-            <td>31/01/2018</td>
-            <td>30/01/2018</td>
-            <td>Redacci&oacute;n</td>
-            <td>Completada</td>
+            <td>Registro</td>
+			<td>12</td>
+			 <td>Completada</td>
             </tr>
             <tr >
             <td><input id="checkBox" type="checkbox"></td>
-            <th>MEN1</th>
-            <th><a href="solicitud.html">L20180001</a></th>
-            <td>Notificaci&oacute;n de Intamaci&oacuten de Pago</td>
+            <th><a href="solicitud.html">L20180034</a></th>
+            <th>Niurka Beato</th>
+            <td>Solicitud de Licencia para Operar como Agente Aduanal</td>
             <td>04/02/2018</td>
             <td>01/02/2018</td>
-            <td>06/02/2018</td>
-            <td>05/02/2018</td>
-            <td>Mensajeria</td>
-            <td>Pendiente</td>
+            <td>Coord. Administrativa</td>
+			<td>12</td>
+			<td>Completada</td>
             </tr>
             <tr class="danger">
             <td><input id="checkBox" type="checkbox"></td>
-            <th>SEG1</th>
-            <th><a href="solicitud.html">L20180001</a></th>
-            <td>Determinaci&oacute;n de pago por fallecimiento</td>
+            <th><a href="solicitud.html">L20180078</a></th>
+            <th>Mar&iacute;a Buznego</th>
+            <td>Solicitud de Licencia para Operar como Consolidador de Cargas</td>
             <td>10/02/2018</td>
             <td>09/02/2018</td>
-            <td>14/02/2018</td>
-            <td>12/02/2018</td>
-            <td>Seguimiento</td>
-            <td>Vencida</td>
-            </tr>
-            <tr tr class="warning">
-            <td><input id="checkBox" type="checkbox"></td>
-            <th>SEG1</th>
-            <th><a href="solicitud.html">L20180001</a></th>
-            <td>Remisi&oacute;n de cheques</td>
-            <td>29/01/2018</td>
-            <td>29/01/2018</td>
-            <td>29/01/2018</td>
-            <td>29/01/2018</td>
-            <td>Seguimiento</td>
-            <td>A vencer</td>
-            </tr>
-            <tr>
-            <td><input id="checkBox" type="checkbox"></td>
-            <th>SEG1</th>
-            <th><a href="solicitud.html">L20180001</a></th>
-            <td>Recursos De Revisi&oacute;n Constitucional</td>
-            <td>29/01/2018</td>
-            <td>29/01/2018</td>
-            <td>29/01/2018</td>
-            <td>29/01/2018</td>
-            <td>Seguimiento</td>
-            <td>Pendiente</td>
+            <td>Cobros</td>
+			<td>24</td>
+			<td>Proceso</td>
             </tr>
             </tbody>
             </table>
